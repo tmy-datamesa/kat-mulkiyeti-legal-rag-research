@@ -28,7 +28,7 @@ graph LR
     C -->|Gemini Embedding| D(Vektör Veritabanı)
     E[Kullanıcı Sorusu] -->|Gemini Embedding| F(Soru Vektörü)
     F -->|Retrieval| G[Benzer Dokümanlar]
-    G -->|Prompt Engineering| H[LLM - Gemini 2.0]
+    G -->|Prompt Engineering| H[LLM - Gemini 2.5]
     H -->|Generation| I[Cevap]
 ```
 

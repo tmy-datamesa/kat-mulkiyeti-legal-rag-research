@@ -25,5 +25,3 @@ mlruns/
 *.swp
 .DS_Store
 
-# Mac
-.DS_Store
