@@ -20,7 +20,7 @@ EMBEDDING_MODEL_NAME = "models/gemini-embedding-001"
 LLM_MODEL_NAME = "gemini-2.5-flash"
 
 # ==============================================================================
-# YOL AYARLARI (PATHS)
+# PATHS
 # ==============================================================================
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(PROJECT_ROOT, "data", "kat-mulkiyeti-kanunu.pdf")

@@ -1,5 +1,5 @@
 """
-Streamlit Web Arayüzü - Legal-RAG (Refactored)
+Streamlit Web Arayüzü - Legal-RAG
 
 Bu uygulama, Kat Mülkiyeti Kanunu hakkında soru-cevap yapmanızı sağlar.
 Sadece kanun metnine dayanarak cevap verir.

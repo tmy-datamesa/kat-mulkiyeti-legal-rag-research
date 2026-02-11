@@ -23,7 +23,7 @@ pypdf==5.1.0
 streamlit==1.41.1
 
 # Evaluation
-mlflow>=2.10.0
-ragas>=0.1.0
+# mlflow>=2.10.0
+# ragas>=0.1.0
 datasets>=2.16.0
 pandas>=2.2.0

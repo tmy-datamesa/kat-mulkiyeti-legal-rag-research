@@ -14,8 +14,8 @@ ENV/
 .env.local
 
 # Veritabanı ve Yerel Dosyalar
-mlflow.db
-mlruns/
+# mlflow.db
+# mlruns/
 
 # IDE ve Editör Ayarları
 .vscode/
