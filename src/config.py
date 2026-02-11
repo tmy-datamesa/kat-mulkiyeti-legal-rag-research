@@ -23,7 +23,7 @@ LLM_MODEL_NAME = "gemini-2.5-flash"
 # YOL AYARLARI (PATHS)
 # ==============================================================================
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_PATH = os.path.join(PROJECT_ROOT, "kat-mulkiyeti-kanunu.pdf")
+DATA_PATH = os.path.join(PROJECT_ROOT, "data", "kat-mulkiyeti-kanunu.pdf")
 CHROMA_PERSIST_DIRECTORY = os.path.join(PROJECT_ROOT, "chroma_db")
 COLLECTION_NAME = "kat_mulkiyeti"
 
