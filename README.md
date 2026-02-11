@@ -43,6 +43,9 @@ graph LR
 ### 2. Cevap Üretimi (Inference)
 *   **Soru Analizi:** Kullanıcının sorusu da aynı embedding modeli ile vektöre çevrilir.
 *   **Retrieval (Getirme):** Vektör veritabanından soruya en çok benzeyen **15 doküman** getirilir (`k=15`).
+> ✅ **Bilgi:** Proje, **hazır vektör veritabanı** (`chroma_db/`) ile birlikte gelir. İlk çalıştırmada bekleme süresi yoktur; uygulama anında açılır.
+>
+> Sadece PDF dosyasını değiştirirseniz `make ingest` komutuyla veritabanını yenilemeniz gerekir.
     *   *Deduplication:* Aynı içeriğe sahip mükerrer dokümanlar temizlenir.
 *   **Prompt Engineering:** LLM'e özel bir talimat seti (System Instruction) verilir:
     *   "Sadece bu metni kullan"
@@ -55,7 +58,7 @@ graph LR
 ## 🚀 Kurulum ve Çalıştırma
 
 ### Gereksinimler
-- Python 3.10 veya üzeri
+- Python 3.10 veya üzeri (Önerilen: 3.12)
 - Google API Anahtarı (Gemini için)
 
 ### Adım 1: Projeyi Hazırla

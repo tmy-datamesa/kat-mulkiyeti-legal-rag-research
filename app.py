@@ -86,15 +86,15 @@ if st.button("🔍 Cevapla", type="primary"):
             source_docs = result.get("source_documents", [])
             
             # Cevabı Göster
-            st.markdown("### Cevap")
-            if "Hatası" in answer or "Kotası" in answer:
+            st.markdown("### 💡 Cevap")
+            if "⚠️" in answer:
                 st.warning(answer)
             else:
                 st.info(answer)
             
-            # Kaynak Dokümanları Göster (Şeffaflık için)
+            # Kaynakları Göster
             if source_docs:
-                with st.expander(f"Kaynak Dokümanlar ({len(source_docs)} adet)"):
+                with st.expander(f"📚 Kaynak Dokümanlar ({len(source_docs)} adet)"):
                     for i, doc in enumerate(source_docs, 1):
                         st.markdown(f"**Kaynak {i}:**")
                         st.text(doc.page_content)
