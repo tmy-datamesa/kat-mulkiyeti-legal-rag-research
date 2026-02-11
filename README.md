@@ -84,9 +84,20 @@ streamlit run app.py
 ```
 Tarayıcınızda otomatik olarak açılacaktır (`http://localhost:8501`).
 
+### ⚡ Kısayol Komutları (Makefile)
+
+Projeyi terminalden daha hızlı yönetmek için şu komutları kullanabilirsiniz:
+
+| Komut | Açıklama |
+|-------|----------|
+| `make setup` | Gerekli paketleri `requirements.txt` üzerinden yükler. |
+| `make run` | Uygulamayı başlatır. |
+| `make ingest` | Veritabanını siler ve sıfırdan oluşturur (PDF değişikliğinde kullanın). |
+| `make clean` | Geçici dosyaları temizler. |
+
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Tech Stack
 
 | Teknoloji | Amaç | Neden Seçildi? |
 |-----------|------|----------------|
