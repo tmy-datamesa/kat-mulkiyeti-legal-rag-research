@@ -14,8 +14,6 @@ ENV/
 .env.local
 
 # Veritabanı ve Yerel Dosyalar
-chroma_db/
-*.sqlite3
 mlflow.db
 mlruns/
 
