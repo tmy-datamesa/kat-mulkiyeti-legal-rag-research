@@ -1,0 +1,29 @@
+# Legal-RAG Gerekli Paketler
+# Python 3.12+ için
+
+# Temel kütüphaneler
+python-dotenv==1.0.0
+
+# LangChain ve bileşenleri
+langchain-text-splitters==1.1.0
+langchain-community==0.4.1
+langchain-google-genai==4.2.0
+
+# Vektör veritabanı
+chromadb==1.5.0
+langchain-chroma>=0.1.0
+
+# Google Gemini
+google-generativeai==1.62.0
+
+# PDF okuma
+pypdf==5.1.0
+
+# Web arayüzü
+streamlit==1.41.1
+
+# Evaluation
+mlflow>=2.10.0
+ragas>=0.1.0
+datasets>=2.16.0
+pandas>=2.2.0

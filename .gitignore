@@ -1,0 +1,29 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal Ortamlar (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+
+# Çevresel Değişkenler (Hassas Bilgiler)
+.env
+.env.local
+
+# Veritabanı ve Yerel Dosyalar
+chroma_db/
+*.sqlite3
+mlflow.db
+mlruns/
+
+# IDE ve Editör Ayarları
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Mac
+.DS_Store
