@@ -105,5 +105,5 @@ if st.button("🔍 Cevapla", type="primary"):
 # ============================================================================
 
 st.divider()
-st.caption("⚖️ Legal-RAG | Refactored Architecture | src/structure")
+st.caption("⚖️ Legal-RAG | Hukuki tavsiye niteliği taşımaz | ")
 
